@@ -1,4 +1,8 @@
 export class Logger {
+    log(message) {
+        console.log(`INFO : ${message}`)
+    }
+
     info(message) {
         console.log(`\x1b[34mINFO : ${message}\x1b[37m`)
     }
